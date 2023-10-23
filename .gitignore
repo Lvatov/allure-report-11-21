@@ -1,17 +1,8 @@
-#Directories
-/.gradle/
-/build/
-/build/classes/java/test/
-/.idea/
-/gradle/wrapper/
-/gradlew/
-/gradlew.bat/
+.gradle
+build/
 !gradle/wrapper/gradle-wrapper.jar
 !**/src/main/**/build/
 !**/src/test/**/build/
-
-# Compiled class file
-*.class
 
 ### IntelliJ IDEA ###
 .idea/modules.xml
@@ -36,16 +27,3 @@ out/
 bin/
 !**/src/main/**/bin/
 !**/src/test/**/bin/
-
-### NetBeans ###
-/nbproject/private/
-/nbbuild/
-/dist/
-/nbdist/
-/.nb-gradle/
-
-### VS Code ###
-.vscode/
-
-### Mac OS ###
-.DS_Store
