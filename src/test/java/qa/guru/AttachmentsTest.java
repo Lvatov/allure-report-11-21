@@ -12,7 +12,6 @@ import static io.qameta.allure.Allure.step;
 import static org.openqa.selenium.By.linkText;
 
 public class AttachmentsTest {
-
     private static final String REPOSITORY = "YuriyLvatov/allure-report-11-21";
     private static final String ISSUE = "first issue";
     @Test

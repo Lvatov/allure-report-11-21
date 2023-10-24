@@ -22,7 +22,6 @@ public class SelenideTest {
         $(".search-input").click();
         $("#query-builder-test").setValue("YuriyLvatov/allure-report-11-21");
         $("#query-builder-test").submit();
-
         $(linkText("YuriyLvatov/allure-report-11-21")).click();
         $("#issues-tab").click();
         $(withText("first issue")).should(exist);
